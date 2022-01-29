@@ -4,6 +4,12 @@ const ImagesCollection = require("./ImageSchema")
 const UsersCollection = require("./UserSchema")
 const fileUpload = require("express-fileupload")
 const stream = require("stream")
+const cors = require('cors')
+
+ 
+app.use(cors())
+
+
 const mongoose = require("mongoose")
 
 
